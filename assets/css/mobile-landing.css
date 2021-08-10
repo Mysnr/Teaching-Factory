@@ -1,0 +1,54 @@
+/* =================
+    SECTION 3
+====================*/
+@media only screen and (max-width: 400px) {
+    .desain-klasik{
+        margin-top: -50px;
+    }
+    .keterangan-interior {
+        padding: 0;
+        transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        -webkit-transform: none;
+}
+    .picture-interior-2{
+        margin-top: -100px;
+    }
+    .keterangan-interior-2 {
+        top: 320px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+    }
+}
+
+/* =================
+    SECTION 4
+====================*/
+@media only screen and (max-width: 400px) {
+    .kategori{
+        margin-top: 240px;
+    }    
+}
+
+/* =================
+    SECTION 5
+====================*/
+/* for touch screen devices */
+@media only screen and (max-width: 400px)  { 
+    .location-title {
+      opacity: 1;
+      text-decoration: none;
+    }
+    .location-image img {
+      filter: blur(2px);
+      -webkit-filter: blur(2px);
+}
+}
